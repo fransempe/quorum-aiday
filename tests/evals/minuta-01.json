@@ -1,0 +1,11 @@
+{
+  "minuta": "minuta-01",
+  "compromisos": [
+    {"descripcion": "Entregar la maqueta navegable de la pantalla de reservas", "palabras_clave": ["maqueta|prototipo"], "responsable": "Carla", "fecha_limite": "2026-10-12"},
+    {"descripcion": "Documentar el modelo de datos de salas y reservas", "palabras_clave": ["modelo"], "responsable": "Bruno", "fecha_limite": "2026-10-09"},
+    {"descripcion": "Configurar el entorno de pruebas", "palabras_clave": ["entorno|ambiente"], "responsable": "Bruno", "fecha_limite": null},
+    {"descripcion": "Redactar el plan de pruebas de la primera versión", "palabras_clave": ["plan de prueba"], "responsable": "Diego", "fecha_limite": "2026-10-16"},
+    {"descripcion": "Enviar a la biblioteca el cronograma actualizado", "palabras_clave": ["cronograma"], "responsable": "Ana", "fecha_limite": "2026-10-07"},
+    {"descripcion": "Pedir a la biblioteca el listado oficial de salas", "palabras_clave": ["list"], "responsable": "", "fecha_limite": null}
+  ]
+}

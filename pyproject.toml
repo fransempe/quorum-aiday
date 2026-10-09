@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quorum"
+version = "0.1.0"
+description = "Framework multiagente de gestión de proyectos con Strands Agents y OpenRouter"
+requires-python = ">=3.11"
+dependencies = [
+    "strands-agents[openai]",
+    "pydantic>=2",
+    "pydantic-settings",
+    "typer",
+]
+
+[project.scripts]
+quorum = "pm_agents.cli:app"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["pm_agents*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# Los tests con LLM consumen cupo diario: no corren por defecto (usar `pytest -m llm`).
+addopts = "-m 'not llm'"
+markers = [
+    "llm: test que llama a un modelo real de OpenRouter (consume cupo)",
+]

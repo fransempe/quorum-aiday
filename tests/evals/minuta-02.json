@@ -1,0 +1,10 @@
+{
+  "minuta": "minuta-02",
+  "compromisos": [
+    {"descripcion": "Migrar la base de datos al servidor nuevo", "palabras_clave": ["migr"], "responsable": "Elena", "fecha_limite": "2026-10-14"},
+    {"descripcion": "Enviar el reglamento de uso de las salas", "palabras_clave": ["reglamento"], "responsable": "Federico", "fecha_limite": "2026-10-10"},
+    {"descripcion": "Organizar una demo con el personal de la biblioteca", "palabras_clave": ["demo"], "responsable": "Ana", "fecha_limite": "2026-10-21"},
+    {"descripcion": "Corregir el error de doble reserva", "palabras_clave": ["doble"], "responsable": "Bruno", "fecha_limite": null},
+    {"descripcion": "Revisar las licencias de las librerías de terceros", "palabras_clave": ["licencia"], "responsable": "", "fecha_limite": null}
+  ]
+}

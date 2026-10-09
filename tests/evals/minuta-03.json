@@ -1,0 +1,10 @@
+{
+  "minuta": "minuta-03",
+  "compromisos": [
+    {"descripcion": "Adaptar el diseño de las pantallas para celulares", "palabras_clave": ["celular|movil|telefono|responsive"], "responsable": "Carla", "fecha_limite": "2026-10-19"},
+    {"descripcion": "Automatizar las pruebas de la API", "palabras_clave": ["automati"], "responsable": "Diego", "fecha_limite": "2026-10-23"},
+    {"descripcion": "Pedir presupuesto a dos proveedores de hosting", "palabras_clave": ["presupuesto|cotizacion"], "responsable": "Ana", "fecha_limite": "2026-10-13"},
+    {"descripcion": "Capacitar al personal de la biblioteca en el uso del sistema", "palabras_clave": ["capacita"], "responsable": "Gabriela", "fecha_limite": "2026-10-28"},
+    {"descripcion": "Definir la política de copias de seguridad de los datos", "palabras_clave": ["respaldo|copia|backup"], "responsable": "", "fecha_limite": null}
+  ]
+}
