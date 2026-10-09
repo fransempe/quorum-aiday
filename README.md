@@ -1,4 +1,4 @@
-# quorum
+# quorum [IN PROGRESS]
 
 Framework multiagente de gestión de proyectos construido con [Strands Agents SDK](https://strandsagents.com) y modelos gratuitos de [OpenRouter](https://openrouter.ai).
 
